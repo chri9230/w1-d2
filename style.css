@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: auto;
+    max-width: 1200px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+header {
+    background-color: #222f3e;
+
+}
+
+header nav {
+    background-color: #354758;
+    color: white;
+    font-size: smaller;
+}
+
+header img {
+    height: 3em;
+    padding: 0.8em 0 0 1em;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 1em;
+    margin: 0;
+}
+
+header ul li {
+    padding: 0.2em 0.4em;
+}
+
+main {
+    background-color: #eaeded;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+/* TESTO DA CENTRARE VERTICALMENTE */
+#topbar {
+    background-color: #f56600;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.8em;
+    height: 1.8em;
+}
+
+#topbar p {
+    margin: 0;
+    font-size: 1.3ch;
+    line-height: 30px;
+    font-weight: 300;
+
+}
+
+#background-img {
+    background-image: url(img/bg-image.png);
+    background-size: contain;
+    height: 8em;
+    position: relative;
+    margin-bottom: 1.7em;
+}
+
+#background-img p {
+    font-weight: 600;
+    font-size: 2.3ch;
+}
+
+#background-img div {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+#sub-container-1 {
+    background-color: white;
+    
+}
+
+#img-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-4 img {
+    margin: 0;
+    height: 300px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.img-ir {
+    box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.3);
+}
+
+.double-place div {
+    display: flex;
+}
+
+.double-place div p {
+    padding-right: 1em;
+}
+
+.double-place {
+    padding: 0 1em 1em 1em;
+    margin-bottom: 1.7em;
+}
+
+/* INIZIA CON LE DUE IMMAGINI GROSSE */
+
+.container-2 {
+    height: 350px;
+    margin-bottom: 1em;
+    padding-bottom: 2em;
+}
+
+.textCentered {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+}
+
+.textCentered p {
+    margin: 0;
+    padding-right: 1em;
+}
+
+.button {
+    font-size: small;
+    font-weight: bold;
+    
+    color: #037286;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.double-place .button {
+    line-height: 28px;
+}
+
+.sub-container-2 .button {
+    line-height: 21px;
+}
+
+.full-img {
+    width: 100%;
+    height: 100%;
+}
+
+.foot-container {
+    width: 100%;
+    background-color: #222f3e;
+}
+
+.foot-container a {
+    background-color: #354758;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 0.5em;
+    
+}
+
+.foot-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-container img {
+    height: 50px;
+    padding: 3em;
+    
+    
+}
+
