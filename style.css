@@ -1,8 +1,6 @@
 body {
     margin: auto;
     max-width: 1200px;
-    
-    
 }
 
 header {
@@ -36,6 +34,7 @@ main {
     padding: 1.5rem;
 }
 
+/* TESTO DA CENTRARE VERTICALMENTE */
 #topbar {
     background-color: #f56600;
     color: white;
@@ -43,7 +42,6 @@ main {
     font-size: 1.6ch;
     margin-bottom: 1.8em;
     height: 1.8em;
-    /* TESTO DA CENTRARE VERTICALMENTE */
 }
 
 #topbar p {
@@ -53,8 +51,9 @@ main {
 #background-img {
     background-image: url(img/bg-image.png);
     background-size: contain;
-    height: 7em;
+    height: 8em;
     position: relative;
+    margin-bottom: 1.7em;
 }
 
 #background-img div {
@@ -64,5 +63,37 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    
+}
+
+#sub-container-1 {
+    background-color: white;
+    
+}
+
+#img-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-4 img {
+    margin: 0;
+    height: 300px;
+    width: 260px;
+    border-radius: 10px;
+    
+}
+
+.double-place div {
+    display: flex;
+}
+
+.double-place div p {
+    padding-right: 1em;
+}
+
+.double-place {
+    padding: 0 1em 1em 1em;
+    margin-bottom: 1.7em;
 }
 
