@@ -142,8 +142,27 @@ main {
     text-decoration: none;
 }
 
+.double-place {
+    position: relative;
+}
+
+
+
+#new-img img {
+    display: none;
+}
+
+#img-4 div:nth-child(2):hover {
+    position: absolute;
+    top: 82%;
+    left: 41%;
+    height: 100px;
+    width: 100px;
+}
+
 .double-place .button {
     line-height: 28px;
+
 }
 
 .sub-container-2 .button {
