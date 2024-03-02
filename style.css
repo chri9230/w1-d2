@@ -32,6 +32,7 @@ header ul {
 
 header ul li {
     padding: 0.2em 0.4em;
+    cursor: pointer;
 }
 
 main {
@@ -98,6 +99,33 @@ main {
 
 .img-ir {
     box-shadow: 5px 5px 15px 2px rgba(0,0,0,0.3);
+    transition: transform 1s ease-in;
+    animation: left-to-right 1s ease-in forwards infinite alternate 3s;
+}
+
+.img-ir:hover {
+    /* transform: scale(1.1); */
+    border: 2px solid rgb(255, 94, 0);
+    animation-play-state: paused;
+    
+    
+}
+
+@keyframes left-to-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateY(20%);
+    }
+
+    66% {
+        transform: translateX(20%) translateY(20%);
+    }
+    100% {
+        transform: translateX(20%);
+    }
 }
 
 .double-place div {
